@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DC7EE96B-BA55-41C0-BE8D-1DC9362734AD}</ProjectGuid>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>Project2</RootNamespace>
+    <ProjectName>MainMenu</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+      <AdditionalOptions>/ignore:4248 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AccountMenu.cpp">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="Accounts\Accounts.cpp" />
+    <ClCompile Include="Accounts\AccountsEmployee.cpp" />
+    <ClCompile Include="Accounts\AccountsManager.cpp" />
+    <ClCompile Include="Accounts\AccountsVector.cpp" />
+    <ClCompile Include="dateSelectionCalendar.cpp" />
+    <ClCompile Include="DB.cpp" />
+    <ClCompile Include="Hotel.cpp" />
+    <ClCompile Include="MainMenu.cpp" />
+    <ClCompile Include="RatesMenu.cpp" />
+    <ClCompile Include="ReportsMenu.cpp" />
+    <ClCompile Include="InventoryMenu.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="ReservationMenu.cpp" />
+    <ClCompile Include="Reservation\CreditCard.cpp" />
+    <ClCompile Include="Reservation\Date.cpp" />
+    <ClCompile Include="Reservation\ExtraFeatures.cpp" />
+    <ClCompile Include="Reservation\GeneralInfo.cpp" />
+    <ClCompile Include="Reservation\RequiredInfo.cpp" />
+    <ClCompile Include="Reservation\Reservation.cpp" />
+    <ClCompile Include="Room\Features.cpp" />
+    <ClCompile Include="Room\Room.cpp" />
+    <ClCompile Include="Room\RoomType.cpp" />
+    <ClCompile Include="SQLite\sqlite3.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AccountMenu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Accounts\Accounts.h" />
+    <ClInclude Include="Accounts\AccountsEmployee.h" />
+    <ClInclude Include="Accounts\AccountsManager.h" />
+    <ClInclude Include="Accounts\AccountsVector.h" />
+    <ClInclude Include="dateSelectionCalendar.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DB.h" />
+    <ClInclude Include="Hotel.h" />
+    <ClInclude Include="MainMenu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="RatesMenu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="InventoryMenu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ReportsMenu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ReservationMenu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Reservation\CreditCard.h" />
+    <ClInclude Include="Reservation\Date.h" />
+    <ClInclude Include="Reservation\ExtraFeatures.h" />
+    <ClInclude Include="Reservation\GeneralInfo.h" />
+    <ClInclude Include="Reservation\RequiredInfo.h" />
+    <ClInclude Include="Reservation\Reservation.h" />
+    <ClInclude Include="Room\Features.h" />
+    <ClInclude Include="Room\Room.h" />
+    <ClInclude Include="Room\RoomType.h" />
+    <ClInclude Include="SQLite\sqlite3.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AccountMenu.resx">
+      <DependentUpon>AccountMenu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dateSelectionCalendar.resx">
+      <DependentUpon>dateSelectionCalendar.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryMenu.resx">
+      <DependentUpon>InventoryMenu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RatesMenu.resx">
+      <DependentUpon>RatesMenu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportsMenu.resx">
+      <DependentUpon>ReportsMenu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReservationMenu.resx">
+      <DependentUpon>ReservationMenu.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Backgrounds\Accounts.jpg" />
+    <Image Include="Backgrounds\Add-Add.jpg" />
+    <Image Include="Backgrounds\Add-Modify.jpg" />
+    <Image Include="Backgrounds\Add-Remove.jpg" />
+    <Image Include="Backgrounds\Modify-Add.jpg" />
+    <Image Include="Backgrounds\Modify-Modify.jpg" />
+    <Image Include="Backgrounds\Modify-Remove.jpg" />
+    <Image Include="Backgrounds\Remove-Add.jpg" />
+    <Image Include="Backgrounds\Remove-Modify.jpg" />
+    <Image Include="Backgrounds\Remove-Remove.jpg" />
+    <Image Include="Backgrounds\Reservation.jpg" />
+    <Image Include="C:\Users\02319416\Downloads\Top Menu (Buttons are off).jpg">
+      <DeploymentContent>false</DeploymentContent>
+    </Image>
+    <Image Include="C:\Users\02319416\Downloads\Top Menu (Buttons are On).jpg" />
+    <Image Include="LoggedOn.jpg" />
+    <Image Include="Rates.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MainMenu.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

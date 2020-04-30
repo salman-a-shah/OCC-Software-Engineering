@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Backgrounds">
+      <UniqueIdentifier>{b031686c-2169-4f5c-a9bb-dcfa27168cd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Reservations">
+      <UniqueIdentifier>{4520aaa4-e554-4316-92e4-c171efdc288a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Reservations">
+      <UniqueIdentifier>{97cdc3cc-f290-46df-bcff-71d60a8ab843}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Accounts">
+      <UniqueIdentifier>{a0d07237-085b-4110-9b16-00dacb56d415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Accounts">
+      <UniqueIdentifier>{f3c44b2b-afda-4b08-becb-201f147aead2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Room">
+      <UniqueIdentifier>{7e290c81-99af-416c-b9fb-6b39073e9544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Room">
+      <UniqueIdentifier>{09d40f52-b0ee-4025-adad-cc08564939e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Hotel">
+      <UniqueIdentifier>{3d6ee135-4f55-43c2-a165-5915735bf775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hotel">
+      <UniqueIdentifier>{ed2087b8-ff0c-4bfe-81b4-b014f4663740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DB">
+      <UniqueIdentifier>{546de3ff-0538-4dcd-8240-3df190530ea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DB">
+      <UniqueIdentifier>{000ebb5c-c15d-403b-9a99-20cdca000fe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SQLite">
+      <UniqueIdentifier>{99ad01a3-97f7-4176-b419-b40d8a05fee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SQLite">
+      <UniqueIdentifier>{dc458f56-844f-469d-95a6-a93a7f38a657}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RatesMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InventoryMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReportsMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReservationMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Reservation\CreditCard.h">
+      <Filter>Header Files\Reservations</Filter>
+    </ClInclude>
+    <ClInclude Include="Reservation\Date.h">
+      <Filter>Header Files\Reservations</Filter>
+    </ClInclude>
+    <ClInclude Include="Reservation\ExtraFeatures.h">
+      <Filter>Header Files\Reservations</Filter>
+    </ClInclude>
+    <ClInclude Include="Reservation\GeneralInfo.h">
+      <Filter>Header Files\Reservations</Filter>
+    </ClInclude>
+    <ClInclude Include="Reservation\RequiredInfo.h">
+      <Filter>Header Files\Reservations</Filter>
+    </ClInclude>
+    <ClInclude Include="Reservation\Reservation.h">
+      <Filter>Header Files\Reservations</Filter>
+    </ClInclude>
+    <ClInclude Include="dateSelectionCalendar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Accounts\Accounts.h">
+      <Filter>Header Files\Accounts</Filter>
+    </ClInclude>
+    <ClInclude Include="Accounts\AccountsEmployee.h">
+      <Filter>Header Files\Accounts</Filter>
+    </ClInclude>
+    <ClInclude Include="Accounts\AccountsManager.h">
+      <Filter>Header Files\Accounts</Filter>
+    </ClInclude>
+    <ClInclude Include="Accounts\AccountsVector.h">
+      <Filter>Header Files\Accounts</Filter>
+    </ClInclude>
+    <ClInclude Include="Room\Features.h">
+      <Filter>Header Files\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="Room\Room.h">
+      <Filter>Header Files\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="Room\RoomType.h">
+      <Filter>Header Files\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="Hotel.h">
+      <Filter>Header Files\Hotel</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLite\sqlite3.h">
+      <Filter>Header Files\SQLite</Filter>
+    </ClInclude>
+    <ClInclude Include="DB.h">
+      <Filter>Header Files\DB</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReportsMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InventoryMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RatesMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReservationMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Reservation\CreditCard.cpp">
+      <Filter>Source Files\Reservations</Filter>
+    </ClCompile>
+    <ClCompile Include="Reservation\Date.cpp">
+      <Filter>Source Files\Reservations</Filter>
+    </ClCompile>
+    <ClCompile Include="Reservation\ExtraFeatures.cpp">
+      <Filter>Source Files\Reservations</Filter>
+    </ClCompile>
+    <ClCompile Include="Reservation\GeneralInfo.cpp">
+      <Filter>Source Files\Reservations</Filter>
+    </ClCompile>
+    <ClCompile Include="Reservation\RequiredInfo.cpp">
+      <Filter>Source Files\Reservations</Filter>
+    </ClCompile>
+    <ClCompile Include="Reservation\Reservation.cpp">
+      <Filter>Source Files\Reservations</Filter>
+    </ClCompile>
+    <ClCompile Include="dateSelectionCalendar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Accounts\Accounts.cpp">
+      <Filter>Source Files\Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="Accounts\AccountsEmployee.cpp">
+      <Filter>Source Files\Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="Accounts\AccountsManager.cpp">
+      <Filter>Source Files\Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="Accounts\AccountsVector.cpp">
+      <Filter>Source Files\Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="Room\Features.cpp">
+      <Filter>Source Files\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="Room\Room.cpp">
+      <Filter>Source Files\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="Room\RoomType.cpp">
+      <Filter>Source Files\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="Hotel.cpp">
+      <Filter>Source Files\Hotel</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLite\sqlite3.c">
+      <Filter>Source Files\SQLite</Filter>
+    </ClCompile>
+    <ClCompile Include="DB.cpp">
+      <Filter>Source Files\DB</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\02319416\Downloads\Top Menu (Buttons are On).jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\02319416\Downloads\Top Menu (Buttons are off).jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LoggedOn.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\Accounts.jpg">
+      <Filter>Resource Files\Backgrounds</Filter>
+    </Image>
+    <Image Include="Backgrounds\Add-Add.jpg">
+      <Filter>Resource Files\Backgrounds</Filter>
+    </Image>
+    <Image Include="Backgrounds\Add-Modify.jpg">
+      <Filter>Resource Files\Backgrounds</Filter>
+    </Image>
+    <Image Include="Backgrounds\Add-Remove.jpg">
+      <Filter>Resource Files\Backgrounds</Filter>
+    </Image>
+    <Image Include="Backgrounds\Modify-Add.jpg">
+      <Filter>Resource Files\Backgrounds</Filter>
+    </Image>
+    <Image Include="Backgrounds\Modify-Modify.jpg">
+      <Filter>Resource Files\Backgrounds</Filter>
+    </Image>
+    <Image Include="Backgrounds\Modify-Remove.jpg">
+      <Filter>Resource Files\Backgrounds</Filter>
+    </Image>
+    <Image Include="Backgrounds\Remove-Add.jpg">
+      <Filter>Resource Files\Backgrounds</Filter>
+    </Image>
+    <Image Include="Backgrounds\Remove-Modify.jpg">
+      <Filter>Resource Files\Backgrounds</Filter>
+    </Image>
+    <Image Include="Backgrounds\Remove-Remove.jpg">
+      <Filter>Resource Files\Backgrounds</Filter>
+    </Image>
+    <Image Include="Backgrounds\Reservation.jpg">
+      <Filter>Resource Files\Backgrounds</Filter>
+    </Image>
+    <Image Include="Rates.jpg">
+      <Filter>Resource Files\Backgrounds</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MainMenu.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryMenu.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountMenu.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RatesMenu.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportsMenu.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReservationMenu.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dateSelectionCalendar.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MainMenu.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

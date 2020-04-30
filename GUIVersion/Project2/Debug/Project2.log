@@ -1,0 +1,44 @@
+﻿  AccountMenu.cpp
+  Accounts.cpp
+  AccountsEmployee.cpp
+  AccountsManager.cpp
+  AccountsVector.cpp
+  dateSelectionCalendar.cpp
+  DB.cpp
+  Hotel.cpp
+  MainMenu.cpp
+C:\Users\salma\Documents\Experimental code\C++ code\projects_organized\hotel_project\GUIVersion\Project2\InventoryMenu.h(870,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\salma\Documents\Experimental code\C++ code\projects_organized\hotel_project\GUIVersion\Project2\InventoryMenu.h(875,21): warning C4018: '<': signed/unsigned mismatch
+  RatesMenu.cpp
+  ReportsMenu.cpp
+  InventoryMenu.cpp
+C:\Users\salma\Documents\Experimental code\C++ code\projects_organized\hotel_project\GUIVersion\Project2\InventoryMenu.h(870,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\salma\Documents\Experimental code\C++ code\projects_organized\hotel_project\GUIVersion\Project2\InventoryMenu.h(875,21): warning C4018: '<': signed/unsigned mismatch
+  Main.cpp
+C:\Users\salma\Documents\Experimental code\C++ code\projects_organized\hotel_project\GUIVersion\Project2\InventoryMenu.h(870,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\salma\Documents\Experimental code\C++ code\projects_organized\hotel_project\GUIVersion\Project2\InventoryMenu.h(875,21): warning C4018: '<': signed/unsigned mismatch
+  ReservationMenu.cpp
+C:\Users\salma\Documents\Experimental code\C++ code\projects_organized\hotel_project\GUIVersion\Project2\InventoryMenu.h(870,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\salma\Documents\Experimental code\C++ code\projects_organized\hotel_project\GUIVersion\Project2\InventoryMenu.h(875,21): warning C4018: '<': signed/unsigned mismatch
+  CreditCard.cpp
+  Date.cpp
+  ExtraFeatures.cpp
+  GeneralInfo.cpp
+  RequiredInfo.cpp
+  Reservation.cpp
+  Generating Code...
+C:\Users\salma\Documents\Experimental code\C++ code\projects_organized\hotel_project\GUIVersion\Project2\Reservation\Reservation.cpp(106): warning C4172: returning address of local variable or temporary
+C:\Users\salma\Documents\Experimental code\C++ code\projects_organized\hotel_project\GUIVersion\Project2\Hotel.cpp(451): warning C4715: 'Hotel::findReservation': not all control paths return a value
+  Compiling...
+  RoomCalendar.cpp
+C:\Users\salma\Documents\Experimental code\C++ code\projects_organized\hotel_project\GUIVersion\Project2\InventoryMenu.h(870,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\salma\Documents\Experimental code\C++ code\projects_organized\hotel_project\GUIVersion\Project2\InventoryMenu.h(875,21): warning C4018: '<': signed/unsigned mismatch
+  Features.cpp
+  Room.cpp
+  RoomType.cpp
+  usernamePasswordInput.cpp
+  Generating Code...
+  sqlite3.c
+  AccountMenu.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
+  AccountMenu.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  Project2.vcxproj -> C:\Users\salma\Documents\Experimental code\C++ code\projects_organized\hotel_project\GUIVersion\Debug\MainMenu.exe
